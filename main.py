@@ -14,6 +14,5 @@ class Plot:
                 plt.scatter(data[features[i]], data[features[j]])
                 plt.savefig(path+features[i] + '_' + features[j] + '.png')
                 paths.append(path+features[i] + '_' + features[j] + '.png')
-        print('hello')
         return paths
 
